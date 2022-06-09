@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment1</title>
+  </head>
+  <body>
+    <form>
+      <h1>Register Yourself</h1>
+      <p>Your date is safe with us. We are collecting this data to know more about you. Knowing you will help us.</p>
+      <hr>
+      <h2>Fill This Form</h2>
+      <p>
+        <label>Username: </label>
+        <input type="text" id="username" name="username">
+      </p>
+      <p>
+        <label>Email:</label>
+        <input type="email" id="email" name="email">
+      </p>
+      <p>
+        <label>Password:</label>
+        <input type="text"  id="password" name="password">
+      </p>
+      <p>
+        <label>Date Of Birth:</label>
+        <input type="date" id="dob" name="dob">
+      </p>
+      <p>
+        <label>Age:</label>
+        <input type="number" id="age" name="age">
+        <label>yrs</label>
+      </p>
+      <hr>
+      <p>
+        <label>Coding Level:</label>
+        <input type="radio" name="Coding Level" id="basic">
+        <label>Basic</label>
+        <input type="radio" name="Coding Level" id="intermediate">
+        <label>Intermediate</label>
+        <input type="radio" name="Coding Level" id="expert">
+        <label>Expert</label>
+      </p>
+      <p>
+        <label><h4>Tick the programming languages you know:</h4></label>
+        <input type="checkbox" name="html" id="html">
+        <label>HTML</label><br>
+        <input type="checkbox" name="css" id="css">
+        <label>CSS</label><br>
+        <input type="checkbox" name="javascipt" id="javascipt">
+        <label>Javascript</label><br>
+        <input type="checkbox" name="php" id="php">
+        <label>PHP</label>
+      </p>
+      <hr>
+      <p>
+        <input type="hidden" id="hidden" name="hidden">
+      </p>
+      <button>SUBMIT</button>
+
+    </form>
+  </body>
+</html>
